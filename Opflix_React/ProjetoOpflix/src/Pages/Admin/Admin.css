@@ -1,0 +1,16 @@
+.submit1{
+    margin-top: 50px;
+    width: 250px;
+    height: 100px;
+    border: none;
+    box-shadow: 4px 4px 1px  rgba(0, 0, 0, 0.651);
+    font-family: "Bebas Neue"; 
+    font-size: 2em;
+    border-bottom-left-radius: 0.6em;
+    border-top-right-radius: 0.6em;
+    margin-bottom: 1em;
+    cursor: pointer;
+
+    
+}
+

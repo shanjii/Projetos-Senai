@@ -1,0 +1,14 @@
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\bin\Debug\netcoreapp2.1\Optus2.deps.json
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\bin\Debug\netcoreapp2.1\Optus2.runtimeconfig.json
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\bin\Debug\netcoreapp2.1\Optus2.runtimeconfig.dev.json
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\bin\Debug\netcoreapp2.1\Optus2.dll
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\obj\Debug\netcoreapp2.1\Optus2.csprojAssemblyReference.cache
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\obj\Debug\netcoreapp2.1\Optus2.csproj.CoreCompileInputs.cache
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\obj\Debug\netcoreapp2.1\Optus2.RazorAssemblyInfo.cache
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\obj\Debug\netcoreapp2.1\Optus2.RazorAssemblyInfo.cs
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\obj\Debug\netcoreapp2.1\Optus2.AssemblyInfoInputs.cache
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\obj\Debug\netcoreapp2.1\Optus2.AssemblyInfo.cs
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\obj\Debug\netcoreapp2.1\Optus2.RazorTargetAssemblyInfo.cache
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\bin\Debug\netcoreapp2.1\Optus2.pdb
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\obj\Debug\netcoreapp2.1\Optus2.dll
+C:\Users\48943406827\Documents\api\SQLAPI\Optus2\Optus2\obj\Debug\netcoreapp2.1\Optus2.pdb

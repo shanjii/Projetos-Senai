@@ -1,0 +1,14 @@
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\bin\Debug\netcoreapp2.1\ProjetoFuncionarios.deps.json
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\bin\Debug\netcoreapp2.1\ProjetoFuncionarios.runtimeconfig.json
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\bin\Debug\netcoreapp2.1\ProjetoFuncionarios.runtimeconfig.dev.json
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\bin\Debug\netcoreapp2.1\ProjetoFuncionarios.dll
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\obj\Debug\netcoreapp2.1\ProjetoFuncionarios.csprojAssemblyReference.cache
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\obj\Debug\netcoreapp2.1\ProjetoFuncionarios.csproj.CoreCompileInputs.cache
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\obj\Debug\netcoreapp2.1\ProjetoFuncionarios.RazorAssemblyInfo.cache
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\obj\Debug\netcoreapp2.1\ProjetoFuncionarios.RazorAssemblyInfo.cs
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\obj\Debug\netcoreapp2.1\ProjetoFuncionarios.AssemblyInfoInputs.cache
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\obj\Debug\netcoreapp2.1\ProjetoFuncionarios.AssemblyInfo.cs
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\obj\Debug\netcoreapp2.1\ProjetoFuncionarios.RazorTargetAssemblyInfo.cache
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\bin\Debug\netcoreapp2.1\ProjetoFuncionarios.pdb
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\obj\Debug\netcoreapp2.1\ProjetoFuncionarios.dll
+C:\Users\48943406827\source\repos\ProjetoFuncionarios\ProjetoFuncionarios\obj\Debug\netcoreapp2.1\ProjetoFuncionarios.pdb
