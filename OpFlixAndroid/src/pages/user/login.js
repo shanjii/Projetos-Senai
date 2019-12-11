@@ -41,10 +41,10 @@ class Login extends Component {
 
     _irParaHome = async (tokenAReceber) => {
         if (tokenAReceber !== null) {
-                await AsyncStorage.setItem('@opflix:token', tokenAReceber);
-                await AsyncStorage.setItem('@nome', this.state.email);
-                this.props.navigation.navigate('Liststack')
-           
+            await AsyncStorage.setItem('@opflix:token', tokenAReceber);
+            await AsyncStorage.setItem('@nome', this.state.email);
+            this.props.navigation.navigate('Liststack')
+
         }
     };
 
@@ -55,31 +55,31 @@ class Login extends Component {
     render() {
         return (
             <Fragment>
-                <StatusBar backgroundColor="black" />
-                <View style={styles.background}>
-                    <Image source={require('../../assets/movie.jpg')} style={styles.fundo} />
-                    <View>
-                        <View style={styles.main}>
-                            <Image source={require('../../assets/opflix.png')} style={styles.logo} />
-                        </View>
-                        <View >
-                        </View>
-                        <View style={{marginTop: 70}}>
-                            <TextInput style={{color: "white", borderColor: "white", fontSize: 25, width: "80%", borderBottomWidth: 1, textAlign: "center", alignSelf: "center"}} placeholder="EMAIL" placeholderTextColor="white" onChangeText={email => this.setState({ email })} value={this.state.email} />
-                        </View>
+                    <StatusBar backgroundColor="black" />
+                    <View style={styles.background}>
+                        <Image source={require('../../assets/movie.jpg')} style={styles.fundo} />
                         <View>
-                            <TextInput style={{color: "white", borderColor: "white", fontSize: 25, width: "80%", borderBottomWidth: 1, textAlign: "center", alignSelf: "center",}} secureTextEntry={true} placeholder="SENHA" placeholderTextColor="white"  onChangeText={senha => this.setState({ senha })} value={this.state.senha} />
-                        </View>
-                        <View style={styles.botao}>
-                        <Button mode="contained"  color="white" onPress={this._realizarLogin}>Login</Button>
+                            <View style={styles.main}>
+                                <Image source={require('../../assets/opflix.png')} style={styles.logo} />
+                            </View>
+                            <View >
+                            </View>
+                            <View style={{ marginTop: 70 }}>
+                                <TextInput style={{ color: "white", borderColor: "white", fontSize: 25, width: "80%", borderBottomWidth: 1, textAlign: "center", alignSelf: "center" }} placeholder="EMAIL" placeholderTextColor="white" onChangeText={email => this.setState({ email })} value={this.state.email} />
+                            </View>
+                            <View>
+                                <TextInput style={{ color: "white", borderColor: "white", fontSize: 25, width: "80%", borderBottomWidth: 1, textAlign: "center", alignSelf: "center", }} secureTextEntry={true} placeholder="SENHA" placeholderTextColor="white" onChangeText={senha => this.setState({ senha })} value={this.state.senha} />
+                            </View>
+                            <View style={styles.botao}>
+                                <Button mode="contained" color="white" onPress={this._realizarLogin}>Login</Button>
+
+                            </View>
+                            <View >
+                                <Button style={styles.botao1} mode="contained" color="white" onPress={this._cadastrar}>Cadastrar</Button>
+                            </View>
 
                         </View>
-                        <View >
-                            <Button style={styles.botao1} mode="contained" color="white" onPress={this._cadastrar}>Cadastrar</Button>
-                        </View>
-
                     </View>
-                </View>
             </Fragment>
 
         );
@@ -109,8 +109,8 @@ const styles = StyleSheet.create({
         alignSelf: "center",
         width: "50%",
         marginTop: 40
-        },
-  
+    },
+
     botao1: {
         marginTop: 20,
         alignSelf: "center",

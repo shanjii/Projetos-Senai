@@ -55,14 +55,13 @@ class Home extends Component {
             <div className="flex">
 
               <div className="Logo">
-                <a href="/">
+                <a href="/home">
                   <img src={Logo} width="159px" />
                 </a>
               </div>
               {(localStorage.getItem("usuario-opflix") !== null) ? (
                 <div className="botoesNav">
                   <ul>
-                    <li><img className="profile1" src={Profile} width="30px"></img></li>
                     <li className="botao"><a href="" onClick={this.removerToken}>LOGOUT</a></li>
                     {(localStorage.getItem("usuario-opflix") !== null && parseJwt().Permissao === "ADMINISTRADOR") ? (
 
@@ -82,7 +81,6 @@ class Home extends Component {
             <div>
               <div className="Contatos">
                 <img className="profile" src={Profile} width="30px"></img>
-
                 <a href="">{localStorage.getItem("Email")}</a>
               </div>
               <div className="Pesquisar">
@@ -101,7 +99,7 @@ class Home extends Component {
 
                 return (
                   <div className="Ativo" id={element.nomeLancamento}>
-                    <a>
+                      <a href='/filmes' onClick={() => { localStorage.setItem('filmeNome', element.nomeLancamento); localStorage.setItem('filmeImagem', element.imagem) } }>
                       <img src={element.imagem} width="144px" />
                     </a>
 
@@ -114,7 +112,9 @@ class Home extends Component {
                 return (
                   <div className="Filme" id={element.nomeLancamento}>
                     <div className="selecI">
-                      <img src={element.imagem} width="144px" />
+                    <a href='/filmes' onClick={() => { localStorage.setItem('filmeNome', element.nomeLancamento); localStorage.setItem('filmeImagem', element.imagem) } }>
+                        <img src={element.imagem} width="144px" />
+                      </a>
                     </div>
                   </div>
                 )

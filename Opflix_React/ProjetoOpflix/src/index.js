@@ -8,10 +8,9 @@ import { parseJwt } from './services/auth';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import Admin from './Pages/Admin/Admin';
-
+import Filmes from './Pages/Filmes/Filmes';
 //routes
 import { Route, Link, BrowserRouter as Router, Switch, Redirect} from "react-router-dom";
-
 import * as serviceWorker from './serviceWorker';
 
 const RotaCliente = ({component: Component}) => (
@@ -55,6 +54,7 @@ const routing = (
                 <RotaCliente path='/home' component={Home} /> 
                 <RotaAdmin path='/admin' component={Admin} />
                 <Route path='/login' component={Login} />
+                <Route path='/filmes' component={Filmes}/>
             </Switch>
         </div>
     </Router>

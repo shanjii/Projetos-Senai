@@ -1,0 +1,1 @@
+Scaffold-DbContext "Data Source=localhost;Initial Catalog=T_Optus;User Id=sa;Pwd=132" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Domains -ContextDir Contexts -Context OptusContext

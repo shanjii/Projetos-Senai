@@ -102,7 +102,6 @@ class Home extends Component {
                                 </a>                        </div>
                             <div className="botoesNav">
                                 <ul>
-                                    <li><img className="profile1" src={Profile} width="30px"></img></li>
                                     <li className="botao"><a href="" onClick={this.removerToken}>LOGOUT</a></li>
                                     <li className="botao"><a href="/home">FILMES</a></li>
                                 </ul>

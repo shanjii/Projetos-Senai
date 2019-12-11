@@ -52,27 +52,28 @@ class Cadastro extends Component {
         return (
             <Fragment>
                 <StatusBar backgroundColor="#800000" />
-                <View style={styles.background}>
-                    <View style={{ marginTop: 50 }}>
-                        <View>
-                            <Text style={styles.text}>Criar conta</Text>
-                        </View>
-                        <View style={{ marginTop: 20 }} >
-                            <TextInput style={{ color: "white", fontSize: 25, textAlign:"center", borderColor: "white", width: "80%", borderBottomWidth: 1, alignSelf: "center", }} onChangeText={(nome) => this.setState({ nome })} placeholderTextColor="white" placeholder="Nome" />
-                        </View>
-                        <View >
-                            <TextInput style={{ color: "white", fontSize: 25, textAlign:"center", borderColor: "white", width: "80%", borderBottomWidth: 1, alignSelf: "center", }} onChangeText={(email) => this.setState({ email })} placeholderTextColor="white" placeholder="Email" />
-                        </View>
-                        <View  >
-                            <TextInput style={{ color: "white", fontSize: 25, textAlign:"center", borderColor: "white", width: "80%", borderBottomWidth: 1, alignSelf: "center", }} onChangeText={(senha) => this.setState({ senha })} placeholderTextColor="white" placeholder="Senha" />
-                        </View>
-                        <View style={{ marginTop: 50 }} >
-                            <Button mode="contained" color="white" style={{ width: "50%", alignSelf: "center" }} onPress={this._cadastrar}>Cadastrar</Button>
+                    <View style={styles.background}>
+
+                        <View style={{ marginTop: 50 }}>
+                            <View>
+                                <Text style={styles.text}>Criar conta</Text>
+                            </View>
+                            <View style={{ marginTop: 20 }} >
+                                <TextInput style={{ color: "white", fontSize: 25, textAlign: "center", borderColor: "white", width: "80%", borderBottomWidth: 1, alignSelf: "center", }} onChangeText={(nome) => this.setState({ nome })} placeholderTextColor="white" placeholder="Nome" />
+                            </View>
+                            <View >
+                                <TextInput style={{ color: "white", fontSize: 25, textAlign: "center", borderColor: "white", width: "80%", borderBottomWidth: 1, alignSelf: "center", }} onChangeText={(email) => this.setState({ email })} placeholderTextColor="white" placeholder="Email" />
+                            </View>
+                            <View  >
+                                <TextInput style={{ color: "white", fontSize: 25, textAlign: "center", borderColor: "white", width: "80%", borderBottomWidth: 1, alignSelf: "center", }} onChangeText={(senha) => this.setState({ senha })} placeholderTextColor="white" placeholder="Senha" />
+                            </View>
+                            <View style={{ marginTop: 50 }} >
+                                <Button mode="contained" color="white" style={{ width: "50%", alignSelf: "center" }} onPress={this._cadastrar}>Cadastrar</Button>
+
+                            </View>
 
                         </View>
-
                     </View>
-                </View>
             </Fragment>
 
         );
